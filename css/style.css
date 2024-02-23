@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header .lista{
+    display: flex;
+    width: 45%;
+    justify-content: center;
+}
+
+header .img{
+    display: flex;
+    align-items: center;
+}
+
+header .boton{
+    display: flex;
+    align-items: center;
+}
+
+header .boton button{
+    margin: 0 5px;
+    border: 0px solid;
+    background-color: gray;
+    color: white;
+    width: 50px;
+    height: 100%;
+}
+
+.lista ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+}
+
+.lista ul li{
+    display: inline-block;
+    margin: 15px;
+    color: grey;
+}
