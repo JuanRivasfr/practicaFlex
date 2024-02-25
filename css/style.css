@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+
+}
+
+.caja{
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    height: max-content;
+    background-color: rgb(236, 234, 234);
+}
+
+.caja p{
+    padding: 15px;
+}
+
+.titulo{
+    font-weight: bolder;
+}
