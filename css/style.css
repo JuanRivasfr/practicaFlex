@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 1000px;
+    max-height: 1000px;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    height: 20%;
+}
+.subencabezado{
+    display: flex;
+    justify-content: space-between;
+    background-color: #3da873;
+    color: white;
+    height: 15%;
+}
+.se1, .se2{
+    display: flex;
+}
+.encabezado{
+    display: flex;
+    flex-direction: column;
+    height: 85%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: salmon;
+}
+
+.encabezado p, h1{
+    margin: 6px;
+}
+
+.encabezado h1{
+    font-size: 60px;
+}
+
+.encabezado p{
+    font-size: 30px;
+}
+
+.se2 a, .se1 a{
+    text-decoration: none;
+    color: white;
+}
+
+.se2 a:hover, .se1 a:hover{
+    color: black;
+}
+
+.se1 ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.se1 li, .se2 a{
+    margin: 5px 15px;
+}
+.se1 ul:nth-child(1){
+    margin-left: 40px;
+}
