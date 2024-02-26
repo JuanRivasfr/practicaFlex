@@ -6,7 +6,6 @@
 body{
     width: 1000px;
     height: auto;
-    border: 1px solid black;
 }
 
 header{
@@ -57,4 +56,65 @@ header{
 }
 .se1 ul:nth-child(1){
     margin-left: 40px;
+}
+
+main{
+    display: flex;
+    width: 100%;
+    height: 70%;
+}
+
+.asid{
+    width: 30%;
+    background-color: whitesmoke;
+}
+
+.asid img, h2, p{
+    margin: 2px 13px;
+}
+
+.asid img{
+    max-width: calc(100% - 26px);
+    height: auto;
+}
+
+aside:nth-child(1){
+    margin-top: 35px;
+}
+
+.art1, .art2{
+    border-bottom: 1px solid black;
+    height: 50%;
+    overflow: hidden;
+
+}
+
+.articulo h2, .articulo p, .articulo img{
+    margin: 10px 14px;
+}
+
+.art1 h2, .art2 h2{
+    margin-top: 25px;
+}
+
+.articulo img{
+    width: calc(100% - 26px);
+    height: auto;
+}
+
+.contenido{
+    height: 100%;
+    padding: 0 10px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    height: 10%;
+}
+
+footer p{
+    padding: 15px;
 }
