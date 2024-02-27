@@ -6,6 +6,7 @@
 
 body{
     width: 1000px;
+    height: 100vh;
 }
 
 header{
@@ -13,9 +14,10 @@ header{
     border: 1px solid black;
 }
 
-.headerizquierda, .headerderecha{
-    border: 1px solid salmon;
+.headerizquierda{
+    border-right: 1px solid black;
 }
+
 
 .headerizquierda{
     width: 30%;
@@ -71,4 +73,102 @@ header{
     background-color: black;
 }
 
+main{
+    width: 100%;
+    height: 100%;
+    border: 1px solid brown;
+}
 
+aside{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedordashboard{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.contenedorcuadradodash{
+    width: 30%;
+    height: 30px;
+    border: 1px solid black;
+    margin: 0px 5px;
+}
+
+.contenedortitulodash p{
+    font-size: 30px;
+}
+
+.contenedoritems{
+    width: 100%;
+    height: 180px;
+    border: 1px solid black;
+    border-bottom: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedorparrafo{
+    width: 34%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+}
+
+.contenedorp{
+    width: 100%;
+    margin: 0 5px;
+}
+
+.contenedorp p{
+    font-size: 22px;
+}
+
+.contenedordivvacio{
+    border-left: 1px solid black;
+    height: 100%;
+}
+
+.contenedoritem{
+    display: flex;
+    width: 100%;
+    height: 25%;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.contenedorimgitem{
+    width: 34%;
+    height: 100%;
+    border-right: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedorimgitem img{
+    width: 30px;
+}
+
+.contenedorpitem{
+    margin: 0px 5px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.contenedoritems div:nth-child(3){
+    border-bottom: 0;
+    border-top: 0;
+}
+
+.contenedoritems div:nth-child(2),.contenedoritems div:nth-child(3),.contenedoritems div:nth-child(4){
+    border-left: 0;
+    border-right: 0;
+}
